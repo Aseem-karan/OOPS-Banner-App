@@ -1,21 +1,23 @@
 /**
- * OOPSBannerApp
- * 
- * Use Case 1 (UC1): Print the literal text "OOPS" to the console.
- * This is the foundational step of the OOPS Banner App project.
- * 
- * @author Aseem
- * @version 1.0
+ * OOPSBannerApp UC2 - Banner Display Application
+ *
+ * This class demonstrates the creation of a visual banner displaying the word "OOPS"
+ * using ASCII art composed of asterisks (*) and spaces.
+ *
+ * @author Haron
+ * @version 2.0
  */
 public class OOPSBannerApp {
 
-    /**
-     * Main method - Entry point of the application
-     * @param args Command-line arguments
-     */
     public static void main(String[] args) {
 
-        System.out.println("OOPS");
+        System.out.println("  *****    *****    ******   *****  ");
+        System.out.println(" *     *  *     *  *      * *     * ");
+        System.out.println(" *     *  *     *  *      * *       ");
+        System.out.println(" *     *  *     *  ******    *****  ");
+        System.out.println(" *     *  *     *  *              * ");
+        System.out.println(" *     *  *     *  *         *     * ");
+        System.out.println("  *****    *****   *          *****  ");
 
     }
 }
