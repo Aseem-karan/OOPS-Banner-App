@@ -1,21 +1,28 @@
-/**
- * OOPSBannerApp
- * 
- * Use Case 1 (UC1): Print the literal text "OOPS" to the console.
- * This is the foundational step of the OOPS Banner App project.
- * 
- * @author Aseem
- * @version 1.0
- */
 public class OOPSBannerApp {
 
-    /**
-     * Main method - Entry point of the application
-     * @param args Command-line arguments
-     */
     public static void main(String[] args) {
 
-        System.out.println("OOPS");
+        // Inline array declaration and initialization
+        String[] lines = {
+            String.join("  ",
+                "  *****  ", "  *****  ", " ******  ", "  *****  "),
+            String.join("  ",
+                " *     * ", " *     * ", " *      *", " *     * "),
+            String.join("  ",
+                " *     * ", " *     * ", " *      *", " *       "),
+            String.join("  ",
+                " *     * ", " *     * ", " ******  ", "  *****  "),
+            String.join("  ",
+                " *     * ", " *     * ", " *       ", "       * "),
+            String.join("  ",
+                " *     * ", " *     * ", " *       ", " *     * "),
+            String.join("  ",
+                "  *****  ", "  *****  ", " *       ", "  *****  ")
+        };
 
+        // Loop to print banner
+        for (String line : lines) {
+            System.out.println(line);
+        }
     }
 }
